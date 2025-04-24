@@ -1,0 +1,34 @@
+# Node modules (si usas librerías para pruebas o frontend)
+node_modules/
+
+# Logs y errores
+logs/
+*.log
+
+# Archivos temporales
+*.tmp
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+
+# Archivos del sistema operativo o IDE
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Compilados de Deno
+deno.lock
+deno.json
+deno.jsonc
+
+# Cache de Deno (por si lo usas localmente)
+.deno/
+
+# Archivos de producción
+dist/
+build/
+
+# Sprites o recursos intermedios (si los generas automáticamente)
+sprites/temp/
